@@ -5,7 +5,7 @@ url: "https://AmizRm.github.io"
 baseurl: "/IRF-web"
 siteIcon: /media/standard.gif
 siteYear: 2020
-siteFooterlink: /about
+#siteFooterlink: /about
 showinSearchEngines: true
 # googleAnalyticsID: (uncomment to use)
 
