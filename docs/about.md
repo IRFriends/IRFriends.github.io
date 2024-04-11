@@ -7,12 +7,12 @@ navname: About
 
 Moonrise is a simple, flexible template website for Minecraft servers.
 
-[GitHub](https://github.com/coffeebank/moonrise)
+[GitHub](https://github.com/AmizRm/IRF-web)
 
 
 # Terms of Use
 
-Moonrise MC is free for use [under the MIT license](https://github.com/coffeebank/moonrise).
+Moonrise MC is free for use [under the MIT license](https://github.com/AmizRM/IRF-web).
 
 
 # Privacy Policy
