@@ -9,8 +9,8 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.serverName }}</title>
     <meta name="description" content="{{ site.serverDescription }}">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/media/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/media/apple-touch-icon.png">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/media/static.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/media/static.png">
 
     <!-- don't show this site on search engines -->
     {% if site.showinSearchEngines == true %}
@@ -89,7 +89,7 @@ layout: compress
     {{ content }}
 
     <div class="layoutfooter w-full pb-8 text-center transition duration-200">
-        <a href="https://github.com/coffeebank/moonrise" rel="noopener" title="Moonrise by coffeebank" class="hover:text-gray-400">Powered by Moonrise</a> &middot; 
+        <a href="https://github.com/AmizRm" rel="noopener" class="hover:text-gray-400">By Amiz R</a> &middot; 
         <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; About/Contact</a>
     </div>
 
