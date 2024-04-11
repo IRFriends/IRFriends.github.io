@@ -3,7 +3,7 @@
 # Change "moonrise" to your repository name
 url: "https://AmizRm.github.io"
 baseurl: "/IRF-web"
-siteIcon: /media/static.png
+siteIcon: /media/standard.gif
 siteYear: 2020
 siteFooterlink: /about
 showinSearchEngines: true
