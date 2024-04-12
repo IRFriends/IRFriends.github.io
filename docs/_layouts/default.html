@@ -89,8 +89,8 @@ layout: compress
     {{ content }}
 
     <div class="layoutfooter w-full pb-8 text-center transition duration-200">
-        <a href= class="hover:text-gray-400">By Amiz R</a> &middot; 
-        <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; About/Team</a>
+        <a class="hover:text-gray-400">By Amiz R</a> &middot; 
+        <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; About/Contact</a>
     </div>
 
     {% if page.navname == "Home" %}
