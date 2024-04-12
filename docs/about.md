@@ -7,15 +7,15 @@ navname: About
 
 ## Dev
 
-[Amiz R]("amizr")
+Amiz R("amizr")
 
 ## Manager
 
-[Abner]("abner_jr")
+Abner("abner_jr")
 
 ## Discord Mod
 
-[GildMan]("gildman")
+GildMan("gildman")
 
 
 # Privacy Policy
