@@ -2,7 +2,7 @@
 # Change "coffeebank" to your GitHub username
 # Change "moonrise" to your repository name
 url: "https://IRFriends.github.io"
-baseurl: "/irfriends.github.io"
+baseurl: ""
 siteIcon: /media/standard.gif
 siteYear: 2022
 siteFooterlink: /about
