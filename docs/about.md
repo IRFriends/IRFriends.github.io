@@ -9,7 +9,7 @@ navname: About
 
 <p title="amizr">Amiz R</p>
 
-## Manager
+## Moderator
 
 <p title="abner_jr">Abner</p>
 
