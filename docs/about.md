@@ -3,7 +3,7 @@ layout: page
 navname: About
 ---
 
-# Staff
+# Our Team:
 
 ## Dev
 
