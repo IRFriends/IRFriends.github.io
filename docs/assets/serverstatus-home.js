@@ -3,7 +3,7 @@
 {% include serverstatus.js %}
 .then(data => {
     if (data.online == true) {
-        document.getElementById("serverVer").innerHTML = `Minecraft ${data.version} Server`;
+        document.getElementById("serverVer").innerHTML = `Minecraft ${data.version.name_raw} Server`;
 
         // siteNav dependent
         {% if site.siteNav %}
