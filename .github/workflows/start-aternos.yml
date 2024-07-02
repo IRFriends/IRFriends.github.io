@@ -1,0 +1,19 @@
+name: Start Aternos Server
+
+on:
+  workflow_dispatch:
+  watch:
+    types: [started]
+
+jobs:
+  start-aternos:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Start Aternos Server
+      run: |
+        sudo apt-get install -y python3-pip
+        pip3 install requests
+        python3 .github/scripts/start_server.py
