@@ -1,0 +1,28 @@
+name: Start Aternos Server
+
+on:
+  workflow_dispatch:
+
+jobs:
+  start-aternos:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+    - name: Start Aternos Server
+      run: |
+        python .github/scripts/start_server.py
+      env:
+        USERNAME: ${{ secrets.ATERNOS_USERNAME }}
+        PASSWORD: ${{ secrets.ATERNOS_PASSWORD }}
+        SERVER_ID: ${{ secrets.ATERNOS_SERVER_ID }}
