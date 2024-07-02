@@ -1,9 +1,10 @@
 import requests
+import os
 
-# Aternos login details
-USERNAME = 'IRFRunner'
-PASSWORD = 'IRFRunner123'
-SERVER_ID = '0q07R1ZoC9NykApbRol7'
+# Aternos login details from environment variables
+USERNAME = os.getenv('USERNAME')
+PASSWORD = os.getenv('PASSWORD')
+SERVER_ID = os.getenv('SERVER_ID')
 
 def login():
     session = requests.Session()
