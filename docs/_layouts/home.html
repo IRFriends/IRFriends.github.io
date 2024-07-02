@@ -24,13 +24,6 @@ layout: default
                 <span class="ccdiscordjoin">Join our Discord</span>
             </button>
         </a>
-
-        <a id="startServerBtn" href="#" rel="noopener">
-            <button class="w-4/5 md:w-1/2 xl:w-1/3 mb-2 bg-gray-800 hover:bg-teal-800 text-gray-300 hover:text-gray py-3 px-4 text-lg rounded transition duration-200 ccdiscordjoinpre">
-                <span class="ccdiscordjoin">Start Minecraft Server</span>
-            </button>
-        </a>
-
     </div>
     <div class="w-full sm:w-3/5 md:w-1/2">
         <div class="ccinfoframe mx-auto my-12 lg:float-right xl:mr-8 rounded-lg shadow-xl" title="{{ site.serverName }} Discord embed" style="background-color:#36393f;">
@@ -69,32 +62,3 @@ layout: default
 <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 <div id="snackbar" class="text-gray-100 bg-green-900 p-3 rounded shadow-xl">Copied!</div>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/clipboard.js"></script>
-
-<script type="text/javascript">
-    document.getElementById('startServerBtn').addEventListener('click', function(event) {
-        event.preventDefault();
-
-        fetch('https://api.github.com/repos/IRFriends/IRFriends.github.io/actions/workflows/start-server.yml/dispatches', {
-            method: 'POST',
-            headers: {
-                'Authorization': 'Bearer GH_TOKEN', // اینجا توکن خود را وارد کنید
-                'Accept': 'application/vnd.github.v3+json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                ref: 'main'
-            })
-        })
-        .then(response => {
-            if (response.ok) {
-                alert('Server start initiated!');
-            } else {
-                alert('Failed to initiate server start.');
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            alert('An error occurred while starting the server.');
-        });
-    });
-</script>
