@@ -2,7 +2,7 @@
 ---
 {% include serverstatus.js %}
 .then(data => {
-    if (data.version.name_clean == 1.20.4) {
+    if (data.version.name_clean == Purpur 1.20.4) {
         document.getElementById("serverVer").innerHTML = `Minecraft ${data.version.name_clean} Server`;
 
         // siteNav dependent
