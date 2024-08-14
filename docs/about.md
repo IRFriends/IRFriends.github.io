@@ -13,10 +13,6 @@ navname: About
 
 <p title="abner_jr">Abner</p>
 
-## Discord Mod
-
-<p title="gildman">GildMan</p>
-
 
 # Privacy Policy
 
