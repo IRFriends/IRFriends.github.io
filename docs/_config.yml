@@ -1,7 +1,7 @@
 # Set this website's info
 # Change "coffeebank" to your GitHub username
 # Change "moonrise" to your repository name
-url: "https://IRFriends.github.io"
+url: "https://amizr.ir"
 baseurl: ""
 siteIcon: /media/standard.gif
 siteYear: 2022
@@ -13,7 +13,7 @@ showinSearchEngines: true
 # Set basic server info
 serverName: IRFriends
 serverDescription: Private Minecraft SMP Server!
-serverIP: Iran.aternos.me
+serverIP: amizr.ir
 useBedrockForOnlineStatus: false
 
 
