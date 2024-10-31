@@ -8,7 +8,7 @@ function handleErrors(response) {
     return response;
 }
 
-// Fetch API, mcstatus
+// Fetch API, mcstatus.io
 fetch("https://api.mcstatus.io/v2/status/{% if site.useBedrockForOnlineStatus == true %}bedrock/{% endif %}java/{{ site.serverIP }}")
     .then(handleErrors)
     .then(response => {

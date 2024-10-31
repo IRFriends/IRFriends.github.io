@@ -5,7 +5,7 @@ navname: About
 
 # Our Team:
 
-## Dev
+## Developer
 
 <p title="amizr">Amiz R</p>
 
@@ -18,5 +18,5 @@ navname: About
 
 This website does not collect any data, but third party integrations may collect data to provide a service.
 
-- Mcsrvstat.us: Displays Minecraft server status
-- Widgetbot: Displays Discord server preview
+- mcstatus.io: Displays Minecraft server status
+<!-- - Widgetbot: Displays Discord server preview -->
